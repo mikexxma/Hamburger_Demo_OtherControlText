@@ -68,6 +68,14 @@
             Height="50"
             IsActive="True">
             </ProgressRing>
+            <ScrollViewer RelativePanel.Below="MyProgressRing" 
+                          HorizontalScrollBarVisibility="Visible"
+                          VerticalScrollBarVisibility="Visible">
+                <Image Width="500"
+                       Height="800"
+                       Stretch="Fill"
+                       Source="Assets/Wide310x150Logo.scale-200.png"></Image>
+            </ScrollViewer>
         </RelativePanel>
     </Grid>
 </Page>
